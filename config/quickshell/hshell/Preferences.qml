@@ -23,7 +23,7 @@ Singleton {
     property bool showWifi: true
     property real notificationSeconds: 3
     property string wallpaperFolder: Quickshell.env("HOME") + "/Pictures/Wallpapers"
-    property string backgroundColor: "141826"
+    property string backgroundColor: "#141826"
     property string surfaceColor: "#222436"
     property string foregroundColor: "#82AAFF"
     property string accentColor: "#82AAFF"
