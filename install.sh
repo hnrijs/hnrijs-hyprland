@@ -37,7 +37,7 @@ if ! $config_only; then
         qt6-wayland quickshell ripgrep slurp speedtest-cli thunar thunar-volman ttf-jetbrains-mono-nerd
         tumbler udisks2 upower util-linux wget wireplumber wl-clipboard xdg-desktop-portal-gtk
         xdg-desktop-portal-hyprland xdg-user-dirs xdg-utils yt-dlp base-devel pavucontrol qt5-wayland 
-        openssh iwd uwsm smartmontools zip unzip qt6ct qt5ct btop
+        openssh iwd uwsm smartmontools zip unzip qt6ct qt5ct btop proton-vpn-gtk-app krita
         thunar-archive-plugin file-roller 7zip  ttf-nerd-fonts-symbols android-udev  ffmpegthumbnailer ttf-dejavu otf-font-awesome
         noto-fonts-cjk ncdu libqalculate ufw translate-shell tesseract tesseract-data-eng scrcpy android-tools iproute2 nwg-look
     )
