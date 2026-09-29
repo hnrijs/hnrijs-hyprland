@@ -1,0 +1,41 @@
+{
+  "lockMuteAudio": false,
+  "lockMuteMic": false,
+  "events": {
+    "volume": true,
+    "brightness": true,
+    "workspace": true,
+    "wifi": true,
+    "bluetooth": true,
+    "nightlight": true,
+    "power": true,
+    "idle": true,
+    "dnd": true,
+    "usb": true,
+    "charging": true,
+    "battery": true,
+    "color": true,
+    "ocr": true,
+    "screenshot": true,
+    "measure": true,
+    "search": true,
+    "download": true,
+    "capslock": true,
+    "applications": true,
+    "keyboard": true
+  },
+  "batteryThresholds": [
+    15,
+    5
+  ],
+  "serverFolder": "~/Server",
+  "isoFolder": "~/Iso",
+  "downloadFolder": "~/Downloads",
+  "minimalVersion": 1,
+  "detailedWeather": true,
+  "overviewTransparent": false,
+  "screenshotFolder": "~/Pictures/Screenshots",
+  "fullscreenNotifications": true,
+  "overviewBlur": true,
+  "overviewNumbers": true
+}

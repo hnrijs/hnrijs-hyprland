@@ -1,0 +1,9 @@
+{
+  "browser": "librewolf.desktop",
+  "video": "mpv.desktop",
+  "image": "imv.desktop",
+  "files": "thunar.desktop",
+  "text": "hshell-nvim.desktop",
+  "terminal": "Alacritty.desktop",
+  "pdf": "libreoffice-draw.desktop"
+}

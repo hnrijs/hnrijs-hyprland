@@ -1,0 +1,39 @@
+{
+  "$schema": "https://github.com",
+  "logo": {
+    "source": "~/.config/fastfetch/h.txt",
+    "type": "file",
+    "width": 10,
+    "padding": {
+      "top": 1,
+      "left": 0,
+      "right": 3
+    }
+  },
+  "display": {
+    "separator": "   ",
+    "color": {
+      "keys": "34",
+      "output": "white"
+    },
+    "key": {
+      "width": 10
+    }
+  },
+  "modules": [
+    {
+      "type": "title",
+      "keyWidth": 0,
+      "format": "\u001b[34m{user-name}\u001b[34m@\u001b[34m{host-name}"
+    },
+    "break",
+    { "type": "os", "key": "os:" },
+    { "type": "kernel", "key": "kernel:" },
+    { "type": "uptime", "key": "uptime:" },
+    { "type": "packages", "key": "pkgs:" },
+    { "type": "memory", "key": "memory:" },
+    { "type": "cpu", "key": "cpu:" },
+    { "type": "gpu", "key": "gpu:" },
+    { "type": "shell", "key": "shell:" }
+  ]
+}
