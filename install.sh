@@ -39,7 +39,7 @@ if ! $config_only; then
         xdg-desktop-portal-hyprland xdg-user-dirs xdg-utils yt-dlp base-devel pavucontrol qt5-wayland 
         openssh iwd uwsm smartmontools zip unzip qt6ct qt5ct
         thunar-archive-plugin file-roller 7zip  ttf-nerd-fonts-symbols android-udev  ffmpegthumbnailer ttf-dejavu otf-font-awesome
-        noto-fonts-cjk ncdu libqalculate ufw translate-shell tesseract tesseract-data-eng scrcpy android-tools iproute2
+        noto-fonts-cjk ncdu libqalculate ufw translate-shell tesseract tesseract-data-eng scrcpy android-tools iproute2 nwg-look
     )
     $use_sddm && required+=(sddm xorg-server)
     if pacman -Si librewolf >/dev/null 2>&1; then required+=(librewolf);else printf 'LibreWolf is not in enabled repositories. Install it from a trusted source to use the preferred browser.\n';fi
